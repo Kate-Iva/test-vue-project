@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import FirstPage from './pages/FirstPage.vue';
+import FirstPage from './pages/FirstPage/FirstPage.vue';
 import SecondPage from './pages/SecondPage.vue';
 import ThirdPage from './pages/ThirdPage.vue';
 const routes = [

@@ -1,27 +1,27 @@
 .menu {
     display: flex;
     justify-content: center;
-    background-color: #ffffff; /* Світлий фон */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тінь */
-    padding: 10px 20px; /* Падінги */
-    border-radius: 8px; /* Закруглені кути */
-    margin: 20px; /* Марджини */
-    flex-wrap: wrap; /* Для адаптивності */
+    background-color: #ffffff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    margin: 20px; 
+    flex-wrap: wrap; 
   }
   .link {
-    margin: 0 10px; /* Марджини між посиланнями */
-    padding: 10px 15px; /* Падінги для кнопок */
-    border: none; /* Без стандартного бордюру */
-    border-radius: 5px; /* Закруглені кути */
-    background-color: #f0f0f0; /* Світлий фон для кнопок */
-    color: #333; /* Темний текст */
-    text-decoration: none; /* Без підкреслення */
-    transition: background-color 0.3s, color 0.3s; /* Анімація переходу */
+    margin: 0 10px; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #f0f0f0; 
+    color: #333; 
+    text-decoration: none; 
+    transition: background-color 0.3s, color 0.3s; 
   }
   .link:hover {
-    background-color: #e0e0e0; /* Світліша тінь при наведенні */
+    background-color: #e0e0e0; 
   }
   .active {
-    color: red; /* Червоний колір для активних посилань */
-    font-weight: bold; /* Жирний шрифт для активних посилань */
+    color: red; 
+    font-weight: bold; 
   }
