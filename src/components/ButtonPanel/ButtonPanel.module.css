@@ -1,0 +1,88 @@
+.buttonPanel {
+    margin-top: 20%;
+  }
+  .modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+  .modalBody {
+    
+  }
+  .modalDialog {
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(50%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    padding: 20px;
+    
+    
+  }
+  .modalContent{
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+   
+  }
+
+  .close {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 24px;
+  }
+  .close:hover {
+    color: #0000007f;
+  }
+  .formGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+  }
+  .formGroup label {
+    width: 30%;
+    margin-right: 10px;
+    
+  }
+
+input {
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.139);
+    width: 80%;
+}
+
+input:hover,
+input:focus {
+    border: 1px solid green;
+}
+  .formControl {
+    flex: 1;
+  }
+  .formControl::placeholder {
+    color: #888;
+   
+  }
+
+  .btnBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }

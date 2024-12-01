@@ -1,15 +1,19 @@
 <template>
-  <div>
-    <h1>Second Page</h1>
-    <SecondCard />
+  <div class="second-page">
+    <ButtonPanel />
   </div>
 </template>
 <script>
-import SecondCard from '../components/SecondCard.vue';
+import ButtonPanel from '../components/ButtonPanel/ButtonPanel.vue';
 export default {
-  components: { SecondCard },
+  components: { ButtonPanel },
 };
 </script>
 <style scoped>
-/* Ваші стилі для SecondPage */
+.second-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Висота на весь екран */
+}
 </style>
