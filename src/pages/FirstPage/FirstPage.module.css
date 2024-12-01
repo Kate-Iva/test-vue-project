@@ -27,7 +27,7 @@
   background-color: rgba(0, 0, 0, 0.149);
   flex-direction: column;
   border-radius: 10%;
-  width: 500px;
+  
 }
 .textContainer {
   width: 150px;
@@ -37,26 +37,25 @@
   font-size: 36px;
   margin: 0;
   color: white;
-    width: 200px;
-  height: 150px;
+
 }
 
 .navButton {
   position: fixed;
   top: 30%;
   transform: translateY(-90%);
-  background: rgba(0, 0, 0, 0.043);
+  background: rgba(0, 0, 0, 0.246);
   border: none;
-  color: rgba(255, 255, 255, 0.638);
+  color: rgba(255, 255, 255, 0.882);
   padding: 10px;
   cursor: pointer;
   z-index: 2;
- /* width: 50px;
-  height: 100px;*/
+ /* width: 50px;*/
+  height: 100px;
   margin: 20px;
 }
 .navButton:hover {
-  background: rgba(72, 72, 72, 0.224);
+  background: rgba(72, 72, 72, 0.057);
 }
 .prev {
   left: 10px;
