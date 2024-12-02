@@ -29,7 +29,7 @@
                 <input type="password" v-model="form.password" :class="$style.formControl" id="password" placeholder="********" required />
               </div>
               <div :class="$style.btnBlock">
-              <button type="submit" class="btn btn-success">Register</button>
+              <button type="submit" class="btn btn-primary">Register</button>
            </div>
             </form>
           </div>
